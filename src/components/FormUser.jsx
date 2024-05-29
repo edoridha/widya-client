@@ -71,9 +71,9 @@ export default function FormUser() {
                                 </select>
                             </div>
                             <div className="mb-3">
-                                <label htmlFor="exampleInputPassword1" className="form-label">Password</label>
+                                <label htmlFor="exampleInputPassword" className="form-label">Password</label>
                                 <div className="input-group">
-                                    <input type={showPassword ? "text" : "password"} className="form-control" id="exampleInputPassword1" name='password' value={formData.password} onChange={handleInputChange} />
+                                    <input type={showPassword ? "text" : "password"} className="form-control" id="exampleInputPassword" name='password' value={formData.password} onChange={handleInputChange} />
                                     <button className="btn btn-outline-secondary" type="button" onClick={togglePasswordVisibility}>
                                         {showPassword ? "Hide" : "Show"}
                                     </button>
